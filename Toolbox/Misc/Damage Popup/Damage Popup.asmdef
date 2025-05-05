@@ -1,0 +1,18 @@
+{
+    "name": "DamagePopup",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2e5042635716d904191004d1e75011b8",
+        "GUID:0a3197384b61f7a488b2f316a49b64f5",
+        "GUID:ce720865d0a20844abf298f2e0b97b1c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

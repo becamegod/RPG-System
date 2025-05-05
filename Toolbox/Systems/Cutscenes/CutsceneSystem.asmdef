@@ -1,0 +1,21 @@
+{
+    "name": "CutsceneSystem",
+    "rootNamespace": "CutsceneSystem",
+    "references": [
+        "GUID:2e5042635716d904191004d1e75011b8",
+        "GUID:f24cf67903b27ae498b3069ecc30cc11",
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:f36f09e7adbc47c4a8f79d81e035781f",
+        "GUID:1c89302031b9d5340bda169a11e02569",
+        "GUID:0a3197384b61f7a488b2f316a49b64f5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

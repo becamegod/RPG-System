@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0322849a9249c8a46839ed69baa9c8e1, type: 3}
+  m_Name: Rosales
+  m_EditorClassIdentifier: 
+  infos:
+  - rid: 7454684903921156175
+  - rid: 7454684903921156177
+  - rid: 7454685125956862016
+  - rid: 9017402799756148810
+  references:
+    version: 2
+    RefIds:
+    - rid: 7454684903921156175
+      type: {class: StatsInfo, ns: StatsSystem, asm: Stats}
+      data:
+        label: Stats Info
+        stats: {fileID: 11400000, guid: b46d0faa3339c0244ae27ca2684f232a, type: 2}
+    - rid: 7454684903921156177
+      type: {class: SkillsInfo, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Skills Info
+        skills:
+        - {fileID: 11400000, guid: 9a2ccef02dd1ea0418b79375a232faeb, type: 2}
+        - {fileID: 11400000, guid: c6f096ab8928f5143a9de8d7c7edf033, type: 2}
+        - {fileID: 11400000, guid: 0f6f268805d6a1348b1beabd89d9849e, type: 2}
+    - rid: 7454685125956862016
+      type: {class: PassiveEffectListInfo, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Passive Effect List Info
+        passives:
+        - asset: {fileID: 11400000, guid: 863448a7449e45d45923bb6616023665, type: 2}
+          parameters:
+          - rid: 9017403408832790538
+        - asset: {fileID: 11400000, guid: 9b9540812398ec347b2182c44cfb0aea, type: 2}
+          parameters:
+          - rid: 9017403408832790543
+        - asset: {fileID: 11400000, guid: 6621f92e6aee90b46a6623488c68dde4, type: 2}
+          parameters:
+          - rid: 9017403408832790545
+    - rid: 9017402799756148810
+      type: {class: BattleSubjectInfo, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Battle Subject Info
+        infos:
+        - rid: 9017403093258862684
+        - rid: 9017403093258862593
+        - rid: 9017403093258862594
+    - rid: 9017403093258862593
+      type: {class: CounterInfo, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Counter Info
+        chance: 0
+        scale: 1
+    - rid: 9017403093258862594
+      type: {class: BurnInfo, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Burn Info
+        chance: 0
+        scale: 1
+    - rid: 9017403093258862684
+      type: {class: CriticalInfo, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Critical Info
+        chance: 0
+        scale: 2
+    - rid: 9017403408832790538
+      type: {class: DeltaParam, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Delta Param
+        delta: 0.5
+    - rid: 9017403408832790543
+      type: {class: DeltaParam, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Delta Param
+        delta: 1
+    - rid: 9017403408832790545
+      type: {class: DeltaParam, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Delta Param
+        delta: 1

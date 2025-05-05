@@ -1,0 +1,26 @@
+{
+    "name": "InputHinting",
+    "rootNamespace": "InputHinting",
+    "references": [
+        "GUID:9c7d9bc57412aa24f9b6255c56466eff",
+        "GUID:680500c19dbf58446867dd4aa16902dc",
+        "GUID:2e5042635716d904191004d1e75011b8",
+        "GUID:1c89302031b9d5340bda169a11e02569",
+        "GUID:c25502cb32dd9cf4695596391beb1659",
+        "GUID:bf73bfc2508e8d44c8b328de4942b883",
+        "GUID:f24cf67903b27ae498b3069ecc30cc11",
+        "GUID:a0b0fef72952e7443987596363cee3f2",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:22a713eb328f25445bb9e1127fd0119d",
+        "GUID:0a3197384b61f7a488b2f316a49b64f5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

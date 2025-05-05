@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0953a1bfda088f04d879e2acba524f29, type: 3}
+  m_Name: Critical Damage
+  m_EditorClassIdentifier: 
+  info:
+    label: Effect Info
+    popupText: 
+    icon: {fileID: 0}
+    visualEffect: {fileID: 0}
+  effect:
+    rid: 9017403120382640219
+  defaultParameters:
+  - rid: 9017403093258862679
+  - rid: 9017403408832790536
+  simpleEffect:
+    rid: -2
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 9017403093258862679
+      type: {class: ApplyToUserParam, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Apply To User Param
+        applyToUser: 1
+    - rid: 9017403120382640219
+      type: {class: LeanCriticalDamageEffect, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Lean Critical Damage Effect
+    - rid: 9017403408832790536
+      type: {class: DeltaParam, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Delta Param
+        delta: 0

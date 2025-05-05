@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wooden Fantasy Bow
+* source:	https://sketchfab.com/3d-models/wooden-fantasy-bow-012bae302acc41beacfbcdb5fb725dfc
+* author:	Cry11y (https://sketchfab.com/Cry11y)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wooden Fantasy Bow" (https://sketchfab.com/3d-models/wooden-fantasy-bow-012bae302acc41beacfbcdb5fb725dfc) by Cry11y (https://sketchfab.com/Cry11y) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

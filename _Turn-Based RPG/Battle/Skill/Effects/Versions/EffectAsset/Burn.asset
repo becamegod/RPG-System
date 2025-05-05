@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0953a1bfda088f04d879e2acba524f29, type: 3}
+  m_Name: Burn
+  m_EditorClassIdentifier: 
+  info:
+    label: Effect Info
+    popupText: Burned
+    icon: {fileID: 21300000, guid: ad4d2aa04e923bf48954b6c270189e51, type: 3}
+    visualEffect: {fileID: -3654553722647451733, guid: 7b8b1f8c61b0ed2468152549332f081a, type: 3}
+  effect:
+    rid: 9017402962637226075
+  defaultParameters:
+  - rid: 9017403088396353629
+  simpleEffect:
+    rid: 9017403030354526208
+  references:
+    version: 2
+    RefIds:
+    - rid: 9017402962637226075
+      type: {class: LeanBurnEffect, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Lean Burn Effect
+    - rid: 9017403030354526208
+      type: {class: SimpleBurn, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Simple Burn
+    - rid: 9017403088396353629
+      type: {class: DurationParam, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Duration Param
+        duration: 3

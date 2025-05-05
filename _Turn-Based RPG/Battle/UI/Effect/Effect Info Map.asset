@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 520d85186d18700489e8de39d92582da, type: 3}
+  m_Name: Effect Info Map
+  m_EditorClassIdentifier: 
+  entries:
+  - identifyType: 0
+    effect: SkillSystem.LeanBurnEffect
+    id: burn
+    info: {fileID: 11400000, guid: f12582f83b8a73044bfdddeb8f250f0e, type: 2}

@@ -1,0 +1,17 @@
+{
+    "name": "Stats",
+    "rootNamespace": "StatsSystem",
+    "references": [
+        "GUID:2e5042635716d904191004d1e75011b8",
+        "GUID:f24cf67903b27ae498b3069ecc30cc11"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

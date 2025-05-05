@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mortal Blade
+* source:	https://sketchfab.com/3d-models/mortal-blade-a324b03f3849414f820e11447f07a050
+* author:	Sam Carrier (https://sketchfab.com/samcarrier)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mortal Blade" (https://sketchfab.com/3d-models/mortal-blade-a324b03f3849414f820e11447f07a050) by Sam Carrier (https://sketchfab.com/samcarrier) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

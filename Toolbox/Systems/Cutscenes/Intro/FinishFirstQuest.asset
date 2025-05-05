@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0440ed16ea9056489d9ac22b16a75f8, type: 3}
+  m_Name: FinishFirstQuest
+  m_EditorClassIdentifier: 
+  showCinematicBars: 0
+  actions:
+  - rid: 6658695680955252737
+  - rid: 6658695722166910976
+  - rid: 6658695680955252738
+  - rid: 6658695680955252739
+  - rid: 6658695680955252740
+  references:
+    version: 2
+    RefIds:
+    - rid: 6658695680955252737
+      type: {class: DialogueAction, ns: GameCutscene, asm: GameCutscene}
+      data:
+        delay: 0
+        dialogue: {fileID: 11400000, guid: a80dd3d7eaf72ed418b282541fac1ddb, type: 2}
+    - rid: 6658695680955252738
+      type: {class: ScreenFadeAction, ns: CutsceneSystem, asm: CutsceneSystem}
+      data:
+        delay: 0
+        fadeMode: 1
+        waitTransition: 1
+    - rid: 6658695680955252739
+      type: {class: SetActiveAction, ns: CutsceneSystem, asm: CutsceneSystem}
+      data:
+        delay: 0
+        gameObjectId: LateVillager
+        status: 1
+    - rid: 6658695680955252740
+      type: {class: ScreenFadeAction, ns: CutsceneSystem, asm: CutsceneSystem}
+      data:
+        delay: 0
+        fadeMode: 0
+        waitTransition: 0
+    - rid: 6658695722166910976
+      type: {class: GetItemAction, ns: CutsceneSystem, asm: GameCutscene}
+      data:
+        delay: 0
+        item: {fileID: 11400000, guid: 4bd745de1888ada4e9823f5889c7ac42, type: 2}
+        amount: 1

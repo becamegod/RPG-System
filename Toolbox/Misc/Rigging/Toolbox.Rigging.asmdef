@@ -1,0 +1,22 @@
+{
+    "name": "Toolbox.Rigging",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7f7d1af65c2641843945d409d28f2e20"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.animation.rigging",
+            "expression": "",
+            "define": "ANIMATION_RIGGING"
+        }
+    ],
+    "noEngineReferences": false
+}

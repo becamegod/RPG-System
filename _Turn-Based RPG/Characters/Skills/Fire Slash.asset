@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e425012866ea26545b6a9454c527afa4, type: 3}
+  m_Name: Fire Slash
+  m_EditorClassIdentifier: 
+  infos:
+  - rid: 7454684921960857601
+  - rid: 7454684989993779200
+  - rid: 7454684994378924032
+  - rid: 7454685035165909058
+  effectDefinitions:
+  - rid: 7454684921960857600
+  - rid: 7454685054072258638
+  turnEffectDefinitions:
+  - duration: 0
+    applyToUser: 0
+    effect:
+      rid: 9017402962080170068
+  - duration: 3
+    applyToUser: 0
+    effect:
+      rid: 9017402962080170069
+  references:
+    version: 2
+    RefIds:
+    - rid: 7454684921960857600
+      type: {class: BurnEffect, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Burn Effect
+        duration: 3
+        health: {fileID: 11400000, guid: 86bf0b301cf22d14ea9c5adc39e83a4d, type: 2}
+        hpRate: 0.1
+        visualEffect: {fileID: -3654553722647451733, guid: 7b8b1f8c61b0ed2468152549332f081a, type: 3}
+    - rid: 7454684921960857601
+      type: {class: TargetSideInfo, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Target Side Info
+        side: 0
+    - rid: 7454684989993779200
+      type: {class: RangeTypeInfo, ns: , asm: Toolbox}
+      data:
+        label: Range Type Info
+        type: 0
+    - rid: 7454684994378924032
+      type: {class: VisualEffectInfo, ns: , asm: Toolbox}
+      data:
+        label: Visual Effect Info
+        visualEffect: {fileID: 6461500991336526759, guid: 7b8b1f8c61b0ed2468152549332f081a, type: 3}
+    - rid: 7454685035165909058
+      type: {class: TargetTypeInfo, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Target Type Info
+        type: 0
+    - rid: 7454685054072258638
+      type: {class: DamageEffect, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Damage Effect
+        scaleStat: {fileID: 11400000, guid: c35e9640d6f760d418acc16f375a0e04, type: 2}
+        scaleRate: 1
+        counterScaleStat: {fileID: 11400000, guid: 1354cfcfdb10e9d45a625d45d5d704e7, type: 2}
+    - rid: 9017402962080170068
+      type: {class: LeanDamageEffect, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Lean Damage Effect
+        scaleStat: {fileID: 11400000, guid: c35e9640d6f760d418acc16f375a0e04, type: 2}
+        counterScaleStat: {fileID: 11400000, guid: 1354cfcfdb10e9d45a625d45d5d704e7, type: 2}
+        scaleRate: 1
+    - rid: 9017402962080170069
+      type: {class: LeanBurnEffect, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Lean Burn Effect

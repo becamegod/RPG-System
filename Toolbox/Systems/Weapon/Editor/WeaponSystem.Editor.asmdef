@@ -1,0 +1,20 @@
+{
+    "name": "WeaponSystem.Editor",
+    "rootNamespace": "WeaponSystem.Editor",
+    "references": [
+        "GUID:a171ef4ee677e11439823b226bf60d76",
+        "GUID:b9652b6401609440aaceddd5358530b1",
+        "GUID:2e5042635716d904191004d1e75011b8"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

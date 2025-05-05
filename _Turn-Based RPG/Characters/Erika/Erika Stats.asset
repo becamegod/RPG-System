@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e97ebb4a6ebc6d44876930bbb983164, type: 3}
+  m_Name: Erika Stats
+  m_EditorClassIdentifier: 
+  stats:
+  - value: 100
+    name: {fileID: 11400000, guid: 86bf0b301cf22d14ea9c5adc39e83a4d, type: 2}
+  - value: 5
+    name: {fileID: 11400000, guid: c35e9640d6f760d418acc16f375a0e04, type: 2}
+  - value: 15
+    name: {fileID: 11400000, guid: 0eaf4509eb270bd44ac731670055fb32, type: 2}
+  - value: 0
+    name: {fileID: 11400000, guid: 1354cfcfdb10e9d45a625d45d5d704e7, type: 2}

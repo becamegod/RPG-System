@@ -1,0 +1,17 @@
+{
+    "name": "Movement.Network",
+    "rootNamespace": "MovementSystem.Network",
+    "references": [
+        "GUID:1491147abca9d7d4bb7105af628b223e",
+        "GUID:37d32f06c18c11240bbe25ee8bd1afa3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

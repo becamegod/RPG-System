@@ -1,0 +1,19 @@
+{
+    "name": "SaveSystem",
+    "rootNamespace": "SaveSystem",
+    "references": [
+        "GUID:2e5042635716d904191004d1e75011b8",
+        "GUID:9868db982ac897947bcbbae66707e750",
+        "GUID:8200e26be81648e45b880a7d325bde44",
+        "GUID:0a3197384b61f7a488b2f316a49b64f5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

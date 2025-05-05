@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0440ed16ea9056489d9ac22b16a75f8, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  actions:
+  - rid: 6658695297246429195
+  - rid: 6658695311127478321
+  - rid: 6658695297246429197
+  - rid: 6658695297246429196
+  - rid: 6658695297246429200
+  - rid: 6658695297246429201
+  references:
+    version: 2
+    RefIds:
+    - rid: 6658695297246429195
+      type: {class: AnimatorAction, ns: CutsceneSystem, asm: CutsceneSystem}
+      data:
+        delay: 0
+        animatorId: player
+        stateToPlay: Lie
+    - rid: 6658695297246429196
+      type: {class: AnimatorAction, ns: CutsceneSystem, asm: CutsceneSystem}
+      data:
+        delay: 1
+        animatorId: player
+        stateToPlay: Kneel
+    - rid: 6658695297246429197
+      type: {class: DialogueAction, ns: GameCutscene, asm: GameCutscene}
+      data:
+        delay: 2
+        dialogue: {fileID: 11400000, guid: 18f14cb5789fe74429abf722ceb8e43c, type: 2}
+    - rid: 6658695297246429200
+      type: {class: DialogueAction, ns: GameCutscene, asm: GameCutscene}
+      data:
+        delay: 1
+        dialogue: {fileID: 11400000, guid: 28b588a1b703a5b42bfe566f39e7b70f, type: 2}
+    - rid: 6658695297246429201
+      type: {class: DelayAction, ns: CutsceneSystem, asm: CutsceneSystem}
+      data:
+        delay: 1
+    - rid: 6658695311127478321
+      type: {class: CameraZoomAction, ns: GameCutscene, asm: CutsceneSystem}
+      data:
+        delay: 0
+        vcamId: follow
+        fovTarget: 20
+        duration: 0
+        revertDuration: 2

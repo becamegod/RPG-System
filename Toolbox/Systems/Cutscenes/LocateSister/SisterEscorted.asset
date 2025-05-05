@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0440ed16ea9056489d9ac22b16a75f8, type: 3}
+  m_Name: SisterEscorted
+  m_EditorClassIdentifier: 
+  showCinematicBars: 1
+  actions:
+  - rid: 6658695680955252738
+  - rid: 6658695680955252739
+  - rid: 6658695680955252740
+  - rid: 6658695680955252737
+  references:
+    version: 2
+    RefIds:
+    - rid: 6658695680955252737
+      type: {class: DialogueAction, ns: GameCutscene, asm: GameCutscene}
+      data:
+        delay: 0
+        dialogue: {fileID: 11400000, guid: f25d0347b96af074f96e33c822f12205, type: 2}
+    - rid: 6658695680955252738
+      type: {class: ScreenFadeAction, ns: CutsceneSystem, asm: CutsceneSystem}
+      data:
+        delay: 0
+        fadeMode: 1
+        waitTransition: 1
+    - rid: 6658695680955252739
+      type: {class: SetActiveAction, ns: CutsceneSystem, asm: CutsceneSystem}
+      data:
+        delay: 0
+        gameObjectId: Cornelia Variant
+        status: 1
+    - rid: 6658695680955252740
+      type: {class: ScreenFadeAction, ns: CutsceneSystem, asm: CutsceneSystem}
+      data:
+        delay: 0
+        fadeMode: 0
+        waitTransition: 1

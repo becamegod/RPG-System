@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e425012866ea26545b6a9454c527afa4, type: 3}
+  m_Name: Attack Melee
+  m_EditorClassIdentifier: 
+  infos:
+  - rid: 7454684916281245763
+  effectDefinitions:
+  - rid: 7454684878187003973
+  turnEffectDefinitions:
+  - duration: 0
+    applyToUser: 0
+    effect:
+      rid: 9017402872504516694
+  effectParams:
+  - asset: {fileID: 11400000, guid: 839d1e9c8497141488a4f4420bfdcf5b, type: 2}
+    parameters:
+    - rid: 9017403067624325205
+  references:
+    version: 2
+    RefIds:
+    - rid: 7454684878187003973
+      type: {class: DamageEffect, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Damage Effect
+        scaleStat: {fileID: 11400000, guid: c35e9640d6f760d418acc16f375a0e04, type: 2}
+        scaleRate: 0.5
+        counterScaleStat: {fileID: 11400000, guid: 1354cfcfdb10e9d45a625d45d5d704e7, type: 2}
+    - rid: 7454684916281245763
+      type: {class: TargetSideInfo, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Target Side Info
+        side: 0
+    - rid: 9017402872504516694
+      type: {class: LeanDamageEffect, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Lean Damage Effect
+        scaleStat: {fileID: 11400000, guid: c35e9640d6f760d418acc16f375a0e04, type: 2}
+        counterScaleStat: {fileID: 11400000, guid: 1354cfcfdb10e9d45a625d45d5d704e7, type: 2}
+    - rid: 9017403067624325205
+      type: {class: ScaleParam, ns: SkillSystem, asm: SkillSystem}
+      data:
+        label: Scale Param
+        scale: 1

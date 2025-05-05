@@ -1,0 +1,18 @@
+{
+    "name": "SkillSystem",
+    "rootNamespace": "SkillSystem",
+    "references": [
+        "GUID:ce720865d0a20844abf298f2e0b97b1c",
+        "GUID:2e5042635716d904191004d1e75011b8",
+        "GUID:776d03a35f1b52c4a9aed9f56d7b4229"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
