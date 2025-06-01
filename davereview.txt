@@ -1,0 +1,43 @@
+bugs:
+title screen freeze, can't input: maybe because I presses A too soon
+rumble won't stop after enhancing (not sure), have to disable rumble in the settings and enable it back up
+Ramo disappears after the cutscene where beluga is missing
+when there is an item info popup, and got caught by a squid, the popup hide the QTE
+
+impression:
+2d cutscene animation is weird (discrete framerate with smooth linear translation) but its variety is entertaining (a lot of unexpected cutscene, which is good)
+dialogue font is not appealing (at first, but got used to it in the long run)
+the game hooks after unlocking dive suit (upgrading)
+everything done thru app is unnatural
+i like bancho personality and dave getting bullied (comedy)
+Harpoon QTE on gamepad is a nightmare (i have to enable auto QTE in the settings)
+gun enhance is late, we expected it sooner
+i like the girl characters, energetic and cute
+i want to upgrade diving speed
+swap the A and RT for harpoon (not sure)
+im so surprised that the trigger harden on ps5 controller when harpooning
+when i see the village, i knew there will be so much chores and i dont know what to do with Bei
+after the village chapter, diving is less
+upgrading melee weapon? at first i thought there wont be any, actually its late
+ecowatcher lv3 is too long
+option to keep the music playing thru phone
+the dona turtle mission is unclear on how to calm it down
+i like how cobra clap when i purchase
+i like how sato entry (the sound)
+the tea pouring and master chef simulation reminds me of my old game
+i love how there are different minigames that keeps the game fresh like the momo cat following, the infiltration, the chef challenge
+the decipher should have a auto clear threshold
+maybe increase the camera wiping speed
+recipe enhancing scrolling inconvenient, i have to do the good old workaround hehe
+you guys have so much content
+seed weed farm menu is too sensitive for left stick
+klaus too hard, bite 3 times, die... until the weapon chest gives a 3 shooter
+Why Alex Cooper look like Kyo from KOF
+phone notification view like iphone
+i hate the theme: ocean, ice
+i don't use the music player a lot
+the dropping feeds is nearly impossible to drop because the position limit (turns out I was playing it wrong)
+epilogue: can't talk to yoshie again
+the find the pearl is fun when im down, pretty good mechanics (gambling addiction)
+pin phone minigame
+i laugh at mamma mia, mario
